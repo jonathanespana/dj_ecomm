@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+<nav class="transparent z-depth-0">
+    <div class="nav-wrapper brand-logo center nav-title">
+        <a href="#" class="z-depth-3">CATEGORIES</a>
+    </div>
+</nav>
+<nav class="transparent z-depth-0">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
+        <li><a href="#">SHIRTS</a></li>
+        <li><a href="#">OUTERWEAR</a></li>
+        <li><a href="#">ACCESSORIES</a></li>
+      </ul>
+    </div>
+  </nav>
+
+{% endblock %}
+
+{% block main %}
+<div class="row">
+    <div class="col s12 m6 l3">
+      <div class="product">
+          <div class="imgBx">
+              <img src="{% static 'main_app/fakestoretshirt1.jpg' %}" alt="">
+          </div>
+          <div class="contentBx">
+              <h3>Cool T-Shirt</h3>
+              <h2 class="price">$40.<small>99</small></h2>
+              <a href="#" class="buy">Buy Now</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l3">
+      <div class="product">
+          <div class="imgBx">
+              <img src="{% static 'main_app/fakestoretshirt2.jpg' %}" alt="">
+          </div>
+          <div class="contentBx">
+              <h3>Cool T-Shirt</h3>
+              <h2 class="price">$40.99</h2>
+              <a href="#" class="buy">Buy Now</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l3"> 
+      <div class="product">
+          <div class="imgBx">
+              <img src="{% static 'main_app/fakestoretshirt3.jpg' %}" alt="">
+          </div>
+          <div class="contentBx">
+              <h3>Cool T-Shirt</h3>
+              <h2 class="price">$40.<small>99</small></h2>
+              <a href="#" class="buy">Buy Now</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l3">
+      <div class="product">
+          <div class="imgBx">
+              <img src="{% static 'main_app/fakestoretshirt4.jpg' %}" alt="">
+          </div>
+          <div class="contentBx">
+              <h3>Cool T-Shirt</h3>
+              <h2 class="price">$40.<small>99</small></h2>
+              <a href="#" class="buy">Buy Now</a>
+          </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
