@@ -19,8 +19,8 @@ div.card {
 }
 
 .product {
-    height: 300px;
-    width: 220px;
+    height: 400px;
+    width: 100%;
     position: relative;
     background: #111111;
     overflow: hidden;
@@ -63,12 +63,12 @@ div.card {
 
 .product .imgBx img {
     padding-top: 20px;
-    max-width: 80%;
+    max-width: 90%;
     transition: 0.5s;
 }
 
 .product:hover .imgBx img {
-    max-width: 75%;
+    max-width: 72%;
 }
 
 .product .contentBx {
